@@ -1,0 +1,4 @@
+# Moves ball into center
+
+bool random_vel_init            # Set random initial velocity if true, else set to default
+---

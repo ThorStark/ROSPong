@@ -1,0 +1,12 @@
+<!-- pong_ball Node launch file -->
+
+<launch>
+  <param name="pong_area_width" type="int" value="10" />
+  <param name="pong_area_height" type="int" value="5" />
+  <node pkg="pong_ball" name="pong_ball" type="pong_ball"> 
+    <param name="start_pos_x" type="double" value="1.0"/>
+    <param name="start_pos_y" type="double" value="-1.0"/>
+    <param name="start_vel_x" type="double" value="0.707"/>
+    <param name="start_vel_y" type="double" value="0.707"/>
+  </node>
+</launch>
